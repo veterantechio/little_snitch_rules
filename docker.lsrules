@@ -8,7 +8,7 @@
 "modificationDate": 1613927698.824555,
 "owner": "me",
 "ports": "443",
-"process": "/Applications/Docker.app/Contents/Resources/Docker",
+"process": "/Applications/Docker.app/Contents/Resources/bin/Docker",
 "protocol": "tcp",
 "remote-hosts": "api.wootric.com"
 },
@@ -18,7 +18,7 @@
 "modificationDate": 1613927697.835532,
 "owner": "me",
 "ports": "443",
-"process": "/Applications/Docker.app/Contents/Resources/Docker",
+"process": "/Applications/Docker.app/Contents/Resources/bin/Docker",
 "protocol": "tcp",
 "remote-hosts": "sessions.bugsnag.com"
 },
@@ -28,7 +28,7 @@
 "modificationDate": 1613401047.347579,
 "owner": "any",
 "ports": "443",
-"process": "/Applications/Docker.app/Contents/Resources/Docker",
+"process": "/Applications/Docker.app/Contents/Resources/bin/Docker",
 "protocol": "tcp",
 "remote-hosts": "api.segment.io"
 },
@@ -38,7 +38,7 @@
 "modificationDate": 1613401047.347579,
 "owner": "any",
 "ports": "443",
-"process": "/Applications/Docker.app/Contents/Resources/Docker",
+"process": "/Applications/Docker.app/Contents/Resources/bin/Docker",
 "protocol": "tcp",
 "remote-hosts": "desktop.docker.com"
 },
@@ -48,7 +48,7 @@
 "modificationDate": 1568590385.8308768,
 "owner": "any",
 "ports": "443",
-"process": "/Applications/Docker.app/Contents/Resources/Docker",
+"process": "/Applications/Docker.app/Contents/Resources/bin/Docker",
 "protocol": "tcp",
 "remote-hosts": "download.docker.com"
 },
@@ -58,7 +58,7 @@
 "modificationDate": 1613401047.347579,
 "owner": "any",
 "ports": "443",
-"process": "/Applications/Docker.app/Contents/Resources/Docker",
+"process": "/Applications/Docker.app/Contents/Resources/bin/Docker",
 "protocol": "tcp",
 "remote-hosts": "hub.docker.com"
 },
