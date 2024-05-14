@@ -1,0 +1,86 @@
+{
+"description": "",
+"name": "Docker",
+"rules": [
+{
+"action": "deny",
+"creationDate": 1613927698.824555,
+"modificationDate": 1613927698.824555,
+"owner": "me",
+"ports": "443",
+"process": "/Applications/Docker.app/Contents/Resources/Docker",
+"protocol": "tcp",
+"remote-hosts": "api.wootric.com"
+},
+{
+"action": "deny",
+"creationDate": 1613927697.835532,
+"modificationDate": 1613927697.835532,
+"owner": "me",
+"ports": "443",
+"process": "/Applications/Docker.app/Contents/Resources/Docker",
+"protocol": "tcp",
+"remote-hosts": "sessions.bugsnag.com"
+},
+{
+"action": "deny",
+"creationDate": 1613401047.347579,
+"modificationDate": 1613401047.347579,
+"owner": "any",
+"ports": "443",
+"process": "/Applications/Docker.app/Contents/Resources/Docker",
+"protocol": "tcp",
+"remote-hosts": "api.segment.io"
+},
+{
+"action": "allow",
+"creationDate": 1613401047.347579,
+"modificationDate": 1613401047.347579,
+"owner": "any",
+"ports": "443",
+"process": "/Applications/Docker.app/Contents/Resources/Docker",
+"protocol": "tcp",
+"remote-hosts": "desktop.docker.com"
+},
+{
+"action": "allow",
+"creationDate": 1568590385.8308768,
+"modificationDate": 1568590385.8308768,
+"owner": "any",
+"ports": "443",
+"process": "/Applications/Docker.app/Contents/Resources/Docker",
+"protocol": "tcp",
+"remote-hosts": "download.docker.com"
+},
+{
+"action": "allow",
+"creationDate": 1613401047.347579,
+"modificationDate": 1613401047.347579,
+"owner": "any",
+"ports": "443",
+"process": "/Applications/Docker.app/Contents/Resources/Docker",
+"protocol": "tcp",
+"remote-hosts": "hub.docker.com"
+},
+{
+"action": "deny",
+"creationDate": 1613401047.347579,
+"modificationDate": 1613401047.347579,
+"owner": "any",
+"ports": "443",
+"process": "/Applications/Docker.app/Contents/MacOS/Docker Desktop.app/Contents/MacOS/Docker Desktop",
+"protocol": "tcp",
+"remote-hosts": "sessions.bugsnag.com"
+},
+{
+"action": "allow",
+"creationDate": 1613401047.347579,
+"modificationDate": 1613401047.347579,
+"owner": "any",
+"ports": "443",
+"process": "/Applications/Docker.app/Contents/MacOS/Docker Desktop.app/Contents/MacOS/Docker Desktop",
+"protocol": "tcp",
+"remote-hosts": "hub.docker.com"
+}
+]
+}
